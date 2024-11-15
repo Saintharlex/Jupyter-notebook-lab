@@ -1,1 +1,8 @@
+git checkout -b question-1-to-6
+git checkout main
+git rm -r images/
+git commit -m "Remove images from the main branch"
+git push origin main
+git checkout question-1-to-6
+git push origin question-1-to-6
 
